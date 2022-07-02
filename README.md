@@ -5,9 +5,9 @@ Compiler Construction 110072
 | 63095          | Farit Zafar (Group Leader)  | 
 | 63006          | Sumair Ansar                |
 | 63761          | Humaira Noor                | 
-| 63052  |         Ibadullah      |
-|                |                             | 
-| -------------  |  -------------              |
+| 63052          | Ibadullah                   |
+| 63064          | Ashar akhtar                | 
+|                |  -------------              |
 |                |                             |
 
 
@@ -17,3 +17,5 @@ Compiler Construction 110072
 2- My name is Humaira student of BSCS completing my degree from PAF-KIET.
 
 3- My name is Ibad, student id is 63052, comleting BSCS from PAF KIET.
+
+4- My name is Asher akhter , my st id is 63064 enrolled in BSCS from PAFKIET.
