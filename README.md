@@ -12,6 +12,6 @@ Compiler Construction 110072
 
 
 # Intro:
-"*" My name is Farit Zafar having the student ID 63095 and currently enrolled in PAF-KIET from where I am pursuing my BS-CS. 
+1- My name is Farit Zafar having the student ID 63095 and currently enrolled in PAF-KIET from where I am pursuing my BS-CS. 
 
-My name is Humaira student of BSCS completing my degree from PAF-KIET.
+2- My name is Humaira student of BSCS completing my degree from PAF-KIET.
