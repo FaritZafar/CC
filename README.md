@@ -7,8 +7,7 @@ Compiler Construction 110072
 | 63761          | Humaira Noor                | 
 | 63052          | Ibadullah                   |
 | 63064          | Ashar akhtar                | 
-|                |  -------------              |
-|                |                             |
+
 
 
 # Intro:
