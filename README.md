@@ -4,9 +4,7 @@ Compiler Construction 110072
 | -------------  | -------------               |
 | 63095          | Farit Zafar (Group Leader)  | 
 | 63006          | Sumair Ansar                |
-|                |                             | 
-|                |                             |
-| 63761      | Humaira Noor                           | 
+| 63761          | Humaira Noor                | 
 | -------------  |  -------------              |
 |                |                             | 
 | -------------  |  -------------              |
