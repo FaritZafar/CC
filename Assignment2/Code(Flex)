@@ -32,7 +32,7 @@ int main()
   
 %%
   
-// driver code
+
 int main()
 {
     printf("\nEnter Mobile Number : ");
