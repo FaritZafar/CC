@@ -2,4 +2,5 @@ This assignment consists of 2 Questions and their Solutions i.e. the solution of
 The links are pasted below:
 Email Validation :
 https://user-images.githubusercontent.com/77563804/183247439-b34baecb-f2be-446e-b9ba-185ade3afb8e.mp4
-
+Phone Validation : 
+https://user-images.githubusercontent.com/77563804/183247471-5ceebd0d-04ea-415f-8d84-0efec5ea7afc.mp4
