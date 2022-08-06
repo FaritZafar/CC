@@ -6,6 +6,5 @@ Phone Validation Video :
 https://user-images.githubusercontent.com/77563804/183247471-5ceebd0d-04ea-415f-8d84-0efec5ea7afc.mp4
 Email Validation Picture: 
 ![Email(2) Validation Output Screenshot](https://user-images.githubusercontent.com/77563804/183247607-4077eff3-3119-4648-a770-4c92f4feb7fd.jpg)
-
 Phone Validation Picture:
 ![Phone Number Validation Output Screenshot](https://user-images.githubusercontent.com/77563804/183247627-1988d62d-8926-443d-b769-e463e80f084b.jpg)
