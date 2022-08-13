@@ -6,9 +6,9 @@ The language specifications for Mini C can be found here:
 if then  
 Endi
 
-## Switch Statement (nesting not allowed)
-Switch()
-Cases
-Value 1:
-Break;
- Value n:
+## Switch Statement (nesting not allowed)  
+Switch()  
+Cases  
+Value 1:  
+Break;  
+Value n:
