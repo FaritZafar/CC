@@ -23,3 +23,12 @@ Endwhile
 C. For = start value, end value, inc/dec  
 ………  
 Endfor
+
+## I/O Statement  
+a. Input ;  
+b. Output ;
+
+## Program Structure  
+Decleration:  
+Start  
+End
