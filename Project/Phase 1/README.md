@@ -35,3 +35,7 @@ End
 
 ## The Languagae Selected:
 The selected language is mini C.
+
+## Languagae Specification:
+Mini C is a simple language C-like programming language which is used for coding and can be designed for implementation purpose for education (basically it is a software through which we can learn compilation).
+
