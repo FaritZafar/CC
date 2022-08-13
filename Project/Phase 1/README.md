@@ -33,5 +33,5 @@ Decleration:
 Start  
 End
 
-#The Languagae Selected:
+## The Languagae Selected:
 The selected language is mini C.
