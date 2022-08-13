@@ -14,3 +14,12 @@ Break;
  Value n:  
 break;  
 Endcase
+
+##Repetition Statement (nesting not allowed)  
+A. Repeat  
+        Until ()  
+B. While (relational expression)  
+Endwhile  
+C. For = start value, end value, inc/dec  
+………  
+Endfor
