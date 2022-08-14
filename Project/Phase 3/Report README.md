@@ -111,7 +111,11 @@ Flex code file have the lexeme patterns and the token classes. We have two metho
 [Tokens.txt](https://github.com/FaritZafar/CC/files/9333013/Tokens.txt)
 
 The Video of compiling our code and showing the output is displayed below:  
+
+
 https://user-images.githubusercontent.com/77563804/184530899-8e930da6-1ecf-4108-aacb-675e5787f1dd.mp4
+
+
 
 ### GCC Compilation  
 By flex, compile the c file that is generated that will create the main executable named x.out on the linux, x.exe on the windows, and write -o to override the executable default file name.
