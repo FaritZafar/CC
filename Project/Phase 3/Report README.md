@@ -33,7 +33,7 @@ Our project has been built as a series of 3 incremental phases, each contributin
 | Phase   | Objective                                                                                                                                              |
 |---------|----------------------------------------------------------------------------------------------                                                          |
 | Phase-1 | Select a mini language and finding its specifications                                                                                                  |
-| Phase-2 | A flex code file (well documented and commented) the takes as input a program in the language we selected in phase 1 and outputs its tokens with video |
+| Phase-2 | A flex code file (well documented and commented) that takes as input a program in the language we selected in phase 1 and outputs its tokens with video |
 | Phase-3 | Write YACC code that uses your code from phase 1 and translates a program written in programming language we chose in phase 1 to python code.          |  
 
 ## Phase 1  
@@ -91,7 +91,21 @@ b. Output ;
 ### Program Structure  
 Decleration:  
 Start  
-End
+End  
 
+## Phase 2  
+Phase 2 required that we write flex code (well documented and commented) that takes as input a program in the language we selected in phase 1 and outputs its tokens with video  
+Phase 2 folder contains 3 files i.e.  
+|Files         |
+|------------  |
+|1-Flex Code   |
+|2-Symbol Table|
+|3-Tokens      |  
 
+The mechanism through which this program works is that we have called the files "Symbol Table" and "Tokens" which contain the code that we have written, in our "Flex Code" and in turn the "Flex Code" file is giving us output in the term of tokens.  
 
+### Flex Code  
+Flex code file have the lexeme patterns and the token classes. We have two methods to set input strings to the executable, first from the standard input in the cl(command line), second from a text file.  
+
+### GCC Compilation  
+By flex, compile the c file that is generated that will create the main executable named x.out on the linux, x.exe on the windows, and write -o to override the executable default file name.
