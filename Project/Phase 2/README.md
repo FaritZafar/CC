@@ -1,4 +1,5 @@
 # Phase 2  
+Phase 2 required that we write flex code (well documented and commented) that takes as input a program in the language we selected in phase 1 and outputs its tokens with video  
 This folder contains 3 files i.e.  
 |Files         |
 |------------  |
