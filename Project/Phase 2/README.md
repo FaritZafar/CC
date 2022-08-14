@@ -19,9 +19,9 @@ a | b = alternative (a or b).
 () ~~ group, for example (a |b) c (a b)  
 
 ### Flex Code  
-Flex code file have the lexeme patterns and the token classes. We have two methods to set input strings to the executable, first from the standard input in the cl(command line), second from a text file. In flex code file we have inherited files i.e. Symbol Table and Tokens and executed it to give us output as tokens.The flex code, symbol table  
-[Flex Code.txt](https://github.com/FaritZafar/CC/files/9333735/Flex.Code.txt)
-and tokens files can be found in the "Phase 2" folder of our project and are also displayed below:  
+Flex code file have the lexeme patterns and the token classes. We have two methods to set input strings to the executable, first from the standard input in the cl(command line), second from a text file. In flex code file we have inherited files i.e. Symbol Table and Tokens and executed it to give us output as tokens.The flex code, symbol table and tokens files can be found in the "Phase 2" folder of our project and are also displayed below:    
+
+[Flex Code.txt](https://github.com/FaritZafar/CC/files/9333735/Flex.Code.txt)  
 [Symbol Table.txt](https://github.com/FaritZafar/CC/files/9333012/Symbol.Table.txt)  
 [Tokens.txt](https://github.com/FaritZafar/CC/files/9333013/Tokens.txt)  
 
