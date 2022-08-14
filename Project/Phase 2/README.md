@@ -39,9 +39,8 @@ https://user-images.githubusercontent.com/77563804/184546452-a8af027c-ec21-4f65-
 
 
 ### Screen Shots  
-ScrennSho![SS!](https://user-images.githubusercontent.com/77563804/184546461-25f3e575-aacb-4d86-b60e-0ebee6de1646.PNG)
-t 1:  
- 
+ScrennShot 1:  
+![SS!](https://user-images.githubusercontent.com/77563804/184546461-25f3e575-aacb-4d86-b60e-0ebee6de1646.PNG)  
 
 ScreenShot 2:  
  ![SS2](https://user-images.githubusercontent.com/77563804/184546465-4b6227ee-9cd5-44f2-a656-dafcf01c7ce4.PNG)
