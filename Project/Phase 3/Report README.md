@@ -28,20 +28,17 @@ he language specifications for Mini C can be found here:
 2- http://www2.cs.arizona.edu/~debray/Teaching/CSc453/DOCS/cminusminusspec.html  ##The Languagae Selected:
 The selected language is mini C.
  
-##Languagae Specification:
-Mini C is a simple language C-like programming language which is used for coding and can be designed for implementation purpose for education (basically it is a software through which we can learn compilation).
-
-It does not contain the main function for entry point like C, C# or java, all code is on top-level (like Javascript or Python)and it will executed if its inside in the C main.
-
-It contains loops, variables,if-else statements, arithmetic i-e {+, -, /, *, %} and comparison i-e {=, ==, >, <,>=, <=, !=},logical {&&, ||, !} operator and and concatenation of string.
-
+# Languagae Specification:  
+Mini C is a simple language C-like programming language which is used for coding and can be designed for implementation purpose for education (basically it is a software through which we can learn compilation).  
+It does not contain the main function for entry point like C, C# or java, all code is on top-level (like Javascript or Python)and it will executed if its inside in the C main.  
+It contains loops, variables,if-else statements, arithmetic i-e {+, -, /, *, %} and comparison i-e {=, ==, >, <,>=, <=, !=},logical {&&, ||, !} operator and and concatenation of string.  
 The user defined functions are not supportable in it.
 
-##Accepted Data Types:
-String
-Bool
-Int (signed 32 bit)
-Double (64 bit IEEE 754 Floating Point)
+## Accepted Data Types:  
+String  
+Bool  
+Int (signed 32 bit)  
+Double (64 bit IEEE 754 Floating Point)
 
 
 ##Expression for Input/Output/Built-in Statements:
