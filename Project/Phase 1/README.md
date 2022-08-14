@@ -23,7 +23,20 @@ This document is separated into the accompanying sections:
  ● Organisation of Code: Contains a descriptive knowledge of the documents used for lexical analysis.
  
  ● Source Code: Contains the source code used for lexical analysis.  
- 
+
+### Accepted Data Types:  
+* String  
+* Bool  
+* Int (signed 32 bit)  
+* Double (64 bit IEEE 754 Floating Point)
+
+### Expression for Input/Output/Built-in Statements:  
+Print a string (to sdout)  
+Convert a number or boolean to string  
+Read a number (from stdin)  
+Some Scopes:
+Nested Scopes do support the variables and they work the same like as in other languages i-e Java, C. {} can be nested in it and the variables are only define at the end of scope also the variables re-declaration only exist in parents scopes. 
+
 # Example Code For our Project  
 ## Simple if (nesting not allowed)  
 if then  
