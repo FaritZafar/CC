@@ -139,4 +139,14 @@ At the initial implementation of parser we faced huge number of conflicts in gra
 By specifying the associativity property of different operators, we resolve many shift/reduce issues in the yacc program, and by opening and closing curly braces {} the remaining conflicts were eliminated and also we resolve some statements by using various precedence rules to associate else with the nearest if.  
 
 ## Phase 3  
-Write YACC code that uses code from phase 1 and translates a program written in programming language we selected in phase 1 to python code.
+Write YACC code that uses code from phase 1 and translates a program written in programming language we selected in phase 1 to python code.  
+
+### About YACC  
+YACC (yet another compiler-compiler) is an LALR(1) (LookAhead, Left-to-right, Rightmost derivation producer with 1 lookahead token) parser generator. YACC was originally designed for being complemented by Lex.  
+Some important points to highlight about YACC are listed below:  
+Input: A CFG- file.y  
+Output: A parser y.tab.c (yacc)  
+* The output file "file.output" contains the parsing tables.  
+* The file "file.tab.h" contains declarations.  
+* The parser called the yyparse ().
+* Parser expects to use a function called yylex () to get tokens.
