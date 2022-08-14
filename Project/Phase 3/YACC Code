@@ -250,7 +250,6 @@ type_qualifier
 	: CONST {global = TRUE;}
 	;
 
-
 /*Declarations*/
 init_declarator_list
 	: init_declarator
@@ -679,6 +678,7 @@ int main(int argc,char **argv){
 	return 0;
     
 }
+
 
 
 
