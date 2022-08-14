@@ -105,14 +105,13 @@ Phase 2 folder contains 3 files i.e.
 The mechanism through which this program works is that we have called the files "Symbol Table" and "Tokens" which contain the code that we have written, in our "Flex Code" and in turn the "Flex Code" file is giving us output in the term of tokens.  
 
 ### Flex Code  
-Flex code file have the lexeme patterns and the token classes. We have two methods to set input strings to the executable, first from the standard input in the cl(command line), second from a text file. In flex code file we have inherited files i.e. Symbol Table and Tokens and executed it to give us output as tokens.The flex code can be found in the "Phase 2" folder of our project and is also displayed below:  
+Flex code file have the lexeme patterns and the token classes. We have two methods to set input strings to the executable, first from the standard input in the cl(command line), second from a text file. In flex code file we have inherited files i.e. Symbol Table and Tokens and executed it to give us output as tokens.The flex code, symbol table and tokens files can be found in the "Phase 2" folder of our project and are also displayed below:  
 [Flex Code.txt](https://github.com/FaritZafar/CC/files/9333006/Flex.Code.txt)  
+[Symbol Table.txt](https://github.com/FaritZafar/CC/files/9333012/Symbol.Table.txt)  
+[Tokens.txt](https://github.com/FaritZafar/CC/files/9333013/Tokens.txt)
+
 The Video of compiling our code and showing the output is displayed below:  
-
-
 https://user-images.githubusercontent.com/77563804/184530899-8e930da6-1ecf-4108-aacb-675e5787f1dd.mp4
-
-
 
 ### GCC Compilation  
 By flex, compile the c file that is generated that will create the main executable named x.out on the linux, x.exe on the windows, and write -o to override the executable default file name.
