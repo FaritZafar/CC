@@ -37,5 +37,36 @@ This document is separated into the accompanying sections:
 * Some Scopes:
 * Nested Scopes do support the variables and they work the same like as in other languages i-e Java, C. {} can be nested in it and the variables are only define at the end of scope also the variables re-declaration only exist in parents scopes. 
 
+# Example Code For our Project  
+## Simple if (nesting not allowed)  
+if then  
+Endi
+
+## Switch Statement (nesting not allowed)  
+Switch()  
+Cases  
+Value 1:  
+Break;  
+ Value n:  
+break;  
+Endcase
+
+## Repetition Statement (nesting not allowed)  
+A. Repeat  
+        Until ()  
+B. While (relational expression)  
+Endwhile  
+C. For = start value, end value, inc/dec  
+………  
+Endfor
+
+## I/O Statement  
+a. Input ;  
+b. Output ;
+
+## Program Structure  
+Decleration:  
+Start  
+End
 
 
