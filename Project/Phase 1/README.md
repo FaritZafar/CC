@@ -49,7 +49,7 @@ This document is separated into the accompanying sections:
 
  ● Functionality: Contains a description of our Flex program and the range of tokens that it can recognize and the strategies for error handling.
  
- ● Symbol table and Constants table: Contains an outline of the design of the image and constants table which contain information on the lexemes recognized during the    lexical analysis.
+ ● Symbol table and Constants table: Contains an outline of the design of the image and constants table which contain information on the  lexemes recognized during the    lexical analysis.
  
  ● Organisation of Code: Contains a descriptive knowledge of the documents used for lexical analysis.
  
