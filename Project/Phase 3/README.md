@@ -1,15 +1,3 @@
-## Phase 3  
-Write YACC code that uses code from phase 1 and translates a program written in programming language we selected in phase 1 to python code.  
-
-### About YACC  
-YACC (yet another compiler-compiler) is an LALR(1) (LookAhead, Left-to-right, Rightmost derivation producer with 1 lookahead token) parser generator. YACC was originally designed for being complemented by Lex.  
-Some important points to highlight about YACC are listed below:  
-Input: A CFG- file.y  
-Output: A parser y.tab.c (yacc)  
-* The output file "file.output" contains the parsing tables.  
-* The file "file.tab.h" contains declarations.  
-* The parser called the yyparse ().
-* Parser expects to use a function called yylex () to get tokens.  
 
 ### Aproach Used:  
 Making a Lexical Analyzer was generally more easy than the Parser at the same time, after reading a lot of documentations and cooperative work, we figured out how to make it happen accurately.  
