@@ -136,4 +136,7 @@ It took a long time to understand the Mini-C language grammar,but as soon as we 
 It was very difficult to find flex and yacc programs integration so we found an easy example on our website of course and we took help from it.  
 ### Elimination of the grammar conflicts in parser:
 At the initial implementation of parser we faced huge number of conflicts in grammar because there are many places where we have clear grammar without (fuzzy rules) but the yacc cannot handle it because it generates LALR(1) parsers by default with limited look ahead ability.  
-By specifying the associativity property of different operators, we resolve many shift/reduce issues in the yacc program, and by opening and closing curly braces {} the remaining conflicts were eliminated and also we resolve some statements by using various precedence rules to associate else with the nearest if.
+By specifying the associativity property of different operators, we resolve many shift/reduce issues in the yacc program, and by opening and closing curly braces {} the remaining conflicts were eliminated and also we resolve some statements by using various precedence rules to associate else with the nearest if.  
+
+## Phase 3  
+Write YACC code that uses code from phase 1 and translates a program written in programming language we selected in phase 1 to python code.
