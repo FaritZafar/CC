@@ -602,7 +602,83 @@ int check_const_var(char *name) {
 	}
 	return FALSE;
 }
+int check_type_op(char *name1, char *name2, char op) {
+	//get the operand data from the symbol table
+	symrec* sym1 = getsym(name1);
+	symrec* sym2 = getsym(name2);
+	if(sym1 == NULL || sym2 == NULL) 
+		return FALSE;
+	//Gets the data type of the operands
+	int name1_type = sym1->data_type;
+	int name2_type = sym2->data_type;
 
+	int ban = FALSE;
+	if(op == '+' || op == '-' || op == '*' || op == '/' || op == '%') {
+		//Si no es ninguno de los tipos de datos permitidos
+		if(name1_type != T_INT && name1_type != T_FLOAT && name1_type != T_DOUBLE) {
+			char msg[250];
+			ban = TRUE;
+			sprintf(msg, "Operand %s in operation %c has an illegal type (%s)\n", name1, op, name1_type);
+			yyerror(msg);
+		}
+		//Si no es ninguno de los tipos de datos permitidos
+		if(name2_type != T_INT && name2_type != T_FLOAT && name2_type != T_DOUBLE) {
+			char msg[250];
+			ban = TRUE;
+			sprintf(msg,"Operand %s in operation %c has an illegal type (%s)\n", name1, op, name2_type);
+			yyerror(msg);
+		}
+		/* warning: assignment to ‘int’ from ‘char *’ makes integer from pointer without a cast [-Wint-conversion] */
+		if (name1_type != name2_type) {
+			char msg[250];
+			ban = TRUE;
+			char *str1_type = get_type(name1_type);
+			char *str2_type = get_type(name2_type);
+			sprintf(msg, "operation %c performs an operation with the types (%s)%s and (%s)%s without cast",op,str1_type,name1,str2_type,name2);
+			yyerror(msg);
+		}
+	}
+	
+	return ban;
+}
+
+/*Main function*/
+int main(int argc,char **argv){
+    
+	/*Args error*/
+	if (argc<3){
+		printf("There is missings parameters\n Example of use: %s code.c code.rb\n", argv[0]);
+		return 0;
+	}
+    
+    /*File error*/
+	if ((yyin = fopen(argv[1],"rt")) == NULL){
+		printf("The file could not be opened.\n");
+        return 0;
+	}
+    
+    /*File error*/
+	if ((yy_output=fopen(argv[2], "w")) == NULL){
+		printf("The file could not be opened.\n");
+        return 0;
+	}
+
+	/*Init translation*/
+	yyparse();
+
+	/*Close files adding 'main' at the bottom*/
+    print("if __name__ == '__main__':\n");
+    print("\tmain()\n");
+	fclose(yyin);
+	fclose(yy_output);
+	/* print_sym_table(); */
+    /*Translation finished: messages*/
+	if(error)   printf("ERROR in the translation: %s\n", argv[1]);
+	else        printf("SUCCESS translating %s\nTranslated file: %s\n", argv[1], argv[2]);
+
+	return 0;
+    
+}
 
 
 
