@@ -3,4 +3,9 @@ def main():
 	sum = 0
 	for i in range(0,10):		
 		sum += 1
+	print("Suma: %d\n" % (sum))
+	return 0
+	
+if __name__ == '__main__':
+	main()
 		
