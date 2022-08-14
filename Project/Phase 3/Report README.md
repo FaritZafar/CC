@@ -126,7 +126,10 @@ https://user-images.githubusercontent.com/77563804/184530899-8e930da6-1ecf-4108-
 
 
 ### Screen Shots  
+ScrennShot 1:  
 ![image](https://user-images.githubusercontent.com/77563804/184532153-0ce0c45a-4001-4e65-8d84-250914be793d.png)  
+
+ScreenShot 2:  
 ![image](https://user-images.githubusercontent.com/77563804/184532173-0e165275-4753-4788-a6bd-4a269e376401.png)  
 
 ### GCC Compilation  
