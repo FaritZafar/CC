@@ -19,8 +19,9 @@ a | b = alternative (a or b).
 () ~~ group, for example (a |b) c (a b)  
 
 ### Flex Code  
-Flex code file have the lexeme patterns and the token classes. We have two methods to set input strings to the executable, first from the standard input in the cl(command line), second from a text file. In flex code file we have inherited files i.e. Symbol Table and Tokens and executed it to give us output as tokens.The flex code, symbol table and tokens files can be found in the "Phase 2" folder of our project and are also displayed below:  
-[Flex Code.txt](https://github.com/FaritZafar/CC/files/9333006/Flex.Code.txt)  
+Flex code file have the lexeme patterns and the token classes. We have two methods to set input strings to the executable, first from the standard input in the cl(command line), second from a text file. In flex code file we have inherited files i.e. Symbol Table and Tokens and executed it to give us output as tokens.The flex code, symbol table  
+[Flex Code.txt](https://github.com/FaritZafar/CC/files/9333735/Flex.Code.txt)
+and tokens files can be found in the "Phase 2" folder of our project and are also displayed below:  
 [Symbol Table.txt](https://github.com/FaritZafar/CC/files/9333012/Symbol.Table.txt)  
 [Tokens.txt](https://github.com/FaritZafar/CC/files/9333013/Tokens.txt)  
 
@@ -30,14 +31,20 @@ By flex, compile the c file that is generated that will create the main executab
 The Video of compiling our code and showing the output is displayed below:  
 
 
-https://user-images.githubusercontent.com/77563804/184530899-8e930da6-1ecf-4108-aacb-675e5787f1dd.mp4
+
+https://user-images.githubusercontent.com/77563804/184546452-a8af027c-ec21-4f65-9917-4b5a113abf71.mp4
+
+
+
 
 
 ### Screen Shots  
-ScrennShot 1:  
-![image](https://user-images.githubusercontent.com/77563804/184532153-0ce0c45a-4001-4e65-8d84-250914be793d.png)  
+ScrennSho![SS!](https://user-images.githubusercontent.com/77563804/184546461-25f3e575-aacb-4d86-b60e-0ebee6de1646.PNG)
+t 1:  
+ 
 
 ScreenShot 2:  
-![image](https://user-images.githubusercontent.com/77563804/184532173-0e165275-4753-4788-a6bd-4a269e376401.png)  
+ ![SS2](https://user-images.githubusercontent.com/77563804/184546465-4b6227ee-9cd5-44f2-a656-dafcf01c7ce4.PNG)
+
 
   
