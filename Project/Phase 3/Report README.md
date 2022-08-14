@@ -37,6 +37,8 @@ Our project has been built as a series of 3 incremental phases, each contributin
 | Phase-3 | Write YACC code that uses your code from phase 1 and translates a program written in programming language we chose in phase 1 to python code.          |  
 
 ## Phase 1  
+In Phase one we selected a language and researched on it and found its specifications which helped us in designing our compiler  
+
 ### Languagae Specification:  
 Mini C is a simple language C-like programming language which is used for coding and can be designed for implementation purpose for education (basically it is a software through which we can learn compilation).  
 It does not contain the main function for entry point like C, C# or java, all code is on top-level (like Javascript or Python)and it will executed if its inside in the C main.It contains loops, variables,if-else statements, arithmetic i-e {+, -, /, *, %} and comparison i-e {=, ==, >, <,>=, <=, !=},logical {&&, ||, !} operator and and concatenation of string.The user defined functions are not supportable in it.  
