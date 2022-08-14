@@ -29,16 +29,14 @@ A compiler is a program that can read a program in one language - the source lan
 There are two parts involved in the translation of a program in the source language into a semantically equivalent target program: analysis and synthesis. The analysis part breaks up the source program into constituent pieces and imposes a grammatical structure on them. It then uses this structure to create an intermediate representation of the source program. The analysis part also collects information about the source program and stores it in a data structure called a symbol table, which is passed along with the intermediate representation to the synthesis part. The synthesis part constructs the desired target program from the intermediate representation and the information in the symbol table. The analysis part is often called the front end of the compiler and the synthesis part is called as the back end.
 
 ## Phase 1  
-he language specifications for Mini C can be found here:  
-1- http://compilersatkiet.22web.org/lang(2).pdf?i=1  
-2- http://www2.cs.arizona.edu/~debray/Teaching/CSc453/DOCS/cminusminusspec.html  ##The Languagae Selected:
-The selected language is mini C.
- 
 ### Languagae Specification:  
 Mini C is a simple language C-like programming language which is used for coding and can be designed for implementation purpose for education (basically it is a software through which we can learn compilation).  
-It does not contain the main function for entry point like C, C# or java, all code is on top-level (like Javascript or Python)and it will executed if its inside in the C main.  
-It contains loops, variables,if-else statements, arithmetic i-e {+, -, /, *, %} and comparison i-e {=, ==, >, <,>=, <=, !=},logical {&&, ||, !} operator and and concatenation of string.  
-The user defined functions are not supportable in it.
+It does not contain the main function for entry point like C, C# or java, all code is on top-level (like Javascript or Python)and it will executed if its inside in the C main.It contains loops, variables,if-else statements, arithmetic i-e {+, -, /, *, %} and comparison i-e {=, ==, >, <,>=, <=, !=},logical {&&, ||, !} operator and and concatenation of string.The user defined functions are not supportable in it.  
+The language specifications for Mini C can be found here:  
+1- http://compilersatkiet.22web.org/lang(2).pdf?i=1  
+2- http://www2.cs.arizona.edu/~debray/Teaching/CSc453/DOCS/cminusminusspec.html  
+The Languagae Selected:  
+The selected language is mini C.
 
 ### Accepted Data Types:  
 String  
