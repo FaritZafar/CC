@@ -46,7 +46,11 @@ Flex is a lexical analyzer generator that takes in a bunch of descriptions of  t
 produces a C document that performs lexical analysis and distinguishes the tokens.
 Here we define the construction and functionality of the scanner:
 This document is separated into the accompanying sections:
+
  ● Functionality: Contains a description of our Flex program and the range of tokens that it can recognize and the strategies for error handling.
+ 
  ● Symbol table and Constants table: Contains an outline of the design of the image and constants table which contain information on the lexemes recognized during the   lexical analysis.
+ 
  ● Organisation of Code: Contains a descriptive knowledge of the documents used for lexical analysis.
+ 
  ● Source Code: Contains the source code used for lexical analysis.
