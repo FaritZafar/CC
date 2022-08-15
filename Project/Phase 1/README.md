@@ -7,7 +7,7 @@ The language specifications for Mini C can be found here:
 The selected language is mini C.
 
 ## Languagae Specification:
-Mini C is a simple language C-like programming language which is used for coding and can be designed for implementation purpose for education (basically it is a software through which we can learn compilation).
+Mini C is a simple language C-like programming language which is used for coding and can be designed for implementation purpose for education (basically it is a software through which we can learn compilation). Our selected mini language is exactly not a replica of what is specified in the document as we had to tweak it according to our needs because of several reasons. One being that some specifications and samples were not of C language explicitly. 
 
 ## Designing C language:
 We used Flex to perform lexical analysis on a subset of the C programming language.
