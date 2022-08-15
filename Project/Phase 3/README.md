@@ -35,6 +35,7 @@ The mechanism through which our Phase 3 runs is that, we run Flex and YACC files
 * flex lex.l  
 * bison -yd yacc.y  
 * ./c2py codes/for.c code.py  
+
 The last command can cause confusion at times as we are providing several files in 1 line command. The "codes" is the folder in which our mini C programs are stored, "for.c" is the name of the file we want to compile in python and the "code.py" is the output file we acquire after the compilation is completed.  
 
 ### (Gcc) Compilation:  
