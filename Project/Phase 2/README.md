@@ -25,6 +25,13 @@ Flex code file have the lexeme patterns and the token classes. We have two metho
 [Symbol Table.txt](https://github.com/FaritZafar/CC/files/9333012/Symbol.Table.txt)  
 [Tokens.txt](https://github.com/FaritZafar/CC/files/9333013/Tokens.txt)  
 
+The Symbol Table and Tokens files contain data that we have inherited in our flex code file while our flex code file contains "Operators", "Keywords" that we have compiled and provided the result in form of "Tokens".  
+
+### Compilation Mechanism  
+The mechanism through which we have compiled our code is the same that we did for the Assignment Number 2 of our course i.e. there are several commands that neeed to be run on CMD (Command Line Interface) of our Operating System (Ubuntu) and the commands are as follows:  
+* flex lexer.l  
+* gcc lex.yy.c -lfl  
+* ./a.out  
 
 ### GCC Compilation  
 By flex, compile the c file that is generated that will create the main executable named x.out on the linux, x.exe on the windows, and write -o to override the executable default file name.  
